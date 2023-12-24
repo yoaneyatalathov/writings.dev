@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #232830;
+    width: 1400px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #b2b3ba;
+}
+
+.menu-container {
+    color: #FFF;
+    padding-bottom: 50px;   
+    width: 960px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    margin: 50px 0;
+    font-size: 20px;    
+}
+
+#home-page {
+    padding-left: 40px;
+}
+
+.menus {
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+    width: 1000px;
+}
+
+.isi-menu {
+    padding: 0 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    color: #FF7575;
+    font-style: italic;    
+    font-size: 35px;
+}
+
+.sub-judul {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.content-utama {
+    width: 960%;
+    padding-top: 10px;
+}
+
+.menu-2 {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    list-style-type: none;
+    color: #b2b3ba; 
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+
+.anak-list {
+    padding: 0 20px;    
+}
+
+.anak-list a {
+    text-decoration: none;
+    color: #b2b3ba; 
+}
+
+.image-list {
+    display: flex;
+}
+
+.image-list img {
+    padding: 0 2px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.content img {
+    position: relative;
+    top: -10px;
+    width: 85%;
+    height: 30%;
+    margin: 0px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.content h2 {
+    width: 85%;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.content p {
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.date {
+    position: relative;
+    bottom: -30px;
+    display: flex;
+    width: 85%;
+    margin-left: 20px;
+    padding-right: 20px;    
+}
+
+time {
+    padding-right: 30px;
+}
+
+.content-kedua {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    flex-wrap: wrap;
+    margin-left: 1.5%;
+}
+
+.navbar {
+    height: 200px;
+    padding-top: 100px;
+    border-bottom: 1px solid #b2b3ba;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.left-footer {
+    display: flex;
+}
+
+.footer button {
+    background-color: #4699E0;
+    border-radius: 5px;
+    border: none;
+}
+
+.email {
+    width: 85px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.twitter {
+    width: 230px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #4699E0;
+    border-radius: 5px;
+    border: none;
+}
